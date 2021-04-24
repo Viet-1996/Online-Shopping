@@ -1,0 +1,13 @@
+
+body{
+ 
+  border:  green solid ;
+  width: 500px;
+
+} 
+.hovaten{
+  right: 100px;
+}
+label{
+  float: right;
+}
