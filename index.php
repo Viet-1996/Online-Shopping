@@ -11,6 +11,6 @@
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
-<i class="fa fa-search"><input type="search" name=""></i>
+<input type="search" name=""><i class="fa fa-search"></i>
 </body>
 </html>
