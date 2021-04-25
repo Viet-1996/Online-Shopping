@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<style type="text/css">
+		li{
+			margin-left: 30px;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+		}
+		ul li a:hover{
+			background-color: red;
+		}
+		.dropdown{
+		  float: left;
+		  overflow: hidden;
+		}
+
+		.dropdown .dropbtn{
+		  font-size: 16px;  
+		  border: none;
+		  outline: none;
+		  color: blue;
+		  background-color: inherit;
+		  font-family: inherit;
+		  margin: 0;
+		}
+
+		.col a:hover, .dropdown:hover .dropbtn{
+		  background-color: #ff9900;
+		}
+
+		.dropdown-content{
+		  display: none;
+		  position: absolute;
+		  background-color: white;
+		  min-width: 160px;
+		  z-index: 1;
+		}
+
+		.dropdown-content a{
+		  float: none;
+		  color: black;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		.dropdown-content a:hover{
+		  background-color: white;
+		}
+
+		.dropdown:hover .dropdown-content{
+		  display: block;
+		}
+		.col-sm-3 a{
+			color:blue;
+		}
+		.col-sm-4 a{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+	<section style="margin-left: 100px; background-color: black"></section>
+  <a class="navbar-brand" href="#">
+    <img src="logo.png" style="width:100px;">
+  </a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <input type="text" placeholder="Tìm kiếm sản phẩm..." style="width: 400px">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </li>
+    <li class="nav-item">
+		<a class="nav-link" href="#">
+			<select>
+				<option>Chọn khu vực</option>
+				<option>Hà Nội</option>
+				<option>Thành phố Hồ Chí Minh</option>
+			</select>
+		</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Giỏ hàng</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="dangnhapdangki.html">Đăng kí/Đăng nhập</a>
+    </li>
+  </ul>	
+</nav>
+	<nav class="navbar navbar-expand-sm bg-dark">
+		<ul class="navbar-nav">
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">Laptop</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">PC</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">Phụ kiện</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">Linh kiện</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<a href="macbook.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">MACBOOK</a>
+		<a href="asus.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">ASUS</a>
+		<a href="hp.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">HP</a>
+		<a href="lenovo.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">LENOVO</a>
+		<a href="acer.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">ACER</a>
+		<a href="dell.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">DELL</a>
+		<a href="lg.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">LG</a>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col" style="text-align: center">Chọn mức giá</div>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">Dưới 10 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">10-15 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">15-20 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">20-25 triệu </a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">Trên 25 triệu</a>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-1" style="background-color: #fa64a5; color: white;font-size: 20px;font-style: italic; font-weight: 700;padding: 10px;"><i><b>MACBOOK</b></i></div>
+		<div class="col-sm-10"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Pro M1.jpg" width="270px"></a>
+			<p>Laptop Apple MacBook Pro M1 <br>2020 8GB/256GB (MYD82SA/A)<br><i style="color: red">30.990.000đ</i> <strike style="float: right; margin-right: 50px">32.990.000đ</strike><br>
+				<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="far fa-star"></i><i class="far fa-star"></i> 10 đánh giá</p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Air 2017.jpg" width="270px"></a>
+			<p>Apple MacBook Air 2017<br> i5 1.8GHz/8GB/128GB (MQD32SA/A)<br><i style="color: red">19.990.000đ</i> <strike style="float: right; margin-right: 50px">20.990.000đ</strike></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Air M1 2020.jpg" width="270px"></a>
+			<p>Apple MacBook Air M1 2020 <br>8GB/256GB (MGND3SA/A)<br><i style="color: red">26.990.000đ</i></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Pro M1.jpg" width="270px"></a>
+			<p>Apple MacBook Pro M1 2020<br>16GB/512GB (Z11C)<i style="color: red">43.990.000đ</i><br>
+				<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> 18 đánh giá</p></p>
+		</section>
+		<div class="col-sm-1"></div>
+	</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Air M1 2020s.jpg" width="270px"></a>
+			<p>Apple MacBook Air M1 2020<br>8GB/256GB (MGN63SA/A)<br><i style="color: red">28.990.000đ</i><br>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple Macbook Pro M1 2020ss.jpg" width="270px"></a>
+			<p>Apple Macbook Pro M1 2020<br>/16GB/1TB SSD (Z11C000CJ)
+
+<br><i style="color: red">51.990.000</i> <strike style="float: right; margin-right: 50px">52.990.000đ</strike><br>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Pro M1 2020.jpg" width="270px"></a>
+			<p>Apple MacBook Pro M1 2020<br>8GB/512GB (MYD92SA/A)
+
+<br><i style="color: red">35.990.000đ</i> <strike style="float: right; margin-right: 50px">36.990.000đ</strike></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="../Macbook/Apple MacBook Air M1 2020.jpg" width="270px"></a>
+			<p>Apple MacBook Air M1 2020<br>8GB/512GB (MGNE3SA/A)<br><i style="color: red">32.9		90.000đ</i><br></p>
+		</section>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row" style="background: #ddd">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-truck fa-3x"></i> Giao hàng nhanh<br> chóng</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-piggy-bank fa-3x"></i>Thanh toán: Tiền mặt, visa/master, trả góp</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-mobile-alt fa-3x"></i>Trải nghiệm sản phẩm<br>tại nhà</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-medal fa-3x"></i>Lỗi đổi tại nhà nhanh<br>chóng</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="far fa-comments fa-3x"></i>Hỗ trợ mọi lúc<br>Hotline:18001763</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4"><a href="">Lịch sử mua hàng</a><br><a href="">Đăng ký làm đại lý cho TGDĐ</a><br><a href="">Tìm hiểu thêm về mua trả góp</a><br><a href="">Chính sách bảo hành</a><br><a href="">Chính sách đổi trả</a><br>
+			<div class="dropdown">
+					<button class="dropbtn"><b>Xem thêm</b><i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<a href="">Giao hàng & Thanh toán</a>
+					<a href="">Hướng dẫn mua online</a>
+					<a href="">Bán hàng doanh nghiệp</a>
+					<a href="">Phiếu mua hàng</a>
+					<a href="">Quy chế hoạt động</a>
+					<a href="">Nội quy cửa hàng</a>
+					<a href="">Chất lượng phục vụ</a>
+					<a href="">Cảnh báo giả mạo</a>
+					<a href="">Thông tin sản phẩm</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<a href="">Giới thiệu công ty (mwg.vn)</a><br>
+			<a href="">Tuyển dụng</a><br>
+			<a href="">Gửi góp ý, khiếu nại</a><br>
+			<a href="">Tìm siêu thị (2.559 shop)</a><br>
+			<a href="">Xem bản mobile</a>
+		</div>
+		<div class="col-sm-3">
+			<table>
+				<tr>
+					<td><small>Gọi mua hàng </small></td>
+					<td><a href="">1800.1060 </a></td>
+					<td><small>(7:30 - 22:00)</small></td>
+				</tr>
+				<tr>
+					<td><small>Gọi khiếu nại </small></td>
+					<td><a href="">1800.1062 </a></td>
+					<td><small>(8:00 - 21:30)</small></td>
+				</tr>
+				<tr>
+					<td><small>Gọi bảo hành </small></td>
+					<td><a href="">1800.1064 </a></td>
+					<td><small>(8:00 - 21:00)</small></td>
+				</tr>
+				<tr>
+					<td><small>Kỹ thuật </small></td>
+					<td><a href="">1800.1063 </a></td>
+					<td><small>(7:30 - 22:00)</small></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-sm-1"></div>
+</body>
+</html>
