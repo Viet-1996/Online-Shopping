@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="cssmi.css">
 </head>
 <body>
-	<h1 style="color: red">COMPLETE PAYMENT</h1>
+	<h1 style="color: red; margin-left: 50px;">COMPLETE PAYMENT</h1>
 
-<section>
+<section >
 	<form>
 		<section>
 			<h5>Do you already have an account?</h5> 
@@ -55,24 +55,28 @@
 			<h3>Shipping Methods</h3>
 		</section>
 		<section>
-			<input type="radio">Delivery 					30.000đ
+			<input type="radio" checked>Delivery 	30.000đ
 		</section>
 		<section>
 			<h3>Payment methods</h3>
 		</section>
 		<section>
-			<input type="radio" > Payment On Delivery (COD)
+			<input type="radio" checked="checked" name="pay"> Payment On Delivery (COD)
 		</section>
 		<section>
-			<input type="radio" name=""> Bank Transfer
+			<input type="radio" name="pay"> Bank Transfer
 		</section>
 		<section>
-			<input type="submit" value="Buy Now">
+			<input type="submit" onclick="buy()" value="Buy Now">
 		</section>
 	</form>
 
 
 
-
+	<script type="text/javascript">
+		function buy() {
+			alert("Mua hang thanh cong");
+		}
+	</script>
 </body>
 </html>
