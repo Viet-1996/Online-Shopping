@@ -9,25 +9,277 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<style type="text/css">
+		li{
+			margin-left: 30px;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+		}
+		ul li a:hover{
+			background-color: red;
+		}
+		.dropdown{
+		  float: left;
+		  overflow: hidden;
+		}
+
+		.dropdown .dropbtn{
+		  font-size: 16px;  
+		  border: none;
+		  outline: none;
+		  color: blue;
+		  background-color: inherit;
+		  font-family: inherit;
+		  margin: 0;
+		}
+
+		.col a:hover, .dropdown:hover .dropbtn{
+		  background-color: #ff9900;
+		}
+
+		.dropdown-content{
+		  display: none;
+		  position: absolute;
+		  background-color: white;
+		  min-width: 160px;
+		  z-index: 1;
+		}
+
+		.dropdown-content a{
+		  float: none;
+		  color: black;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		.dropdown-content a:hover{
+		  background-color: white;
+		}
+
+		.dropdown:hover .dropdown-content{
+		  display: block;
+		}
+		.col-sm-3 a{
+			color:blue;
+		}
+		.col-sm-4 a{
+			color: blue;
+		}
+	</style>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+	<section style="margin-left: 100px; background-color: black"></section>
   <a class="navbar-brand" href="#">
-    <img src="logo.png" style="width:40px;">
+    <img src="logo.png" style="width:100px;">
   </a>
-  
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+      <input type="text" placeholder="Tìm kiếm sản phẩm..." style="width: 400px">
+      <button type="submit"><i class="fa fa-search"></i></button>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+		<a class="nav-link" href="#">
+			<select>
+				<option>Chọn khu vực</option>
+				<option>Hà Nội</option>
+				<option>Thành phố Hồ Chí Minh</option>
+			</select>
+		</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 3</a>
+      <a class="nav-link" href="#">Giỏ hàng</a>
     </li>
-  </ul>
+    <li class="nav-item">
+      <a class="nav-link" href="dangnhapdangki.html">Đăng kí/Đăng nhập</a>
+    </li>
+  </ul>	
 </nav>
+	<nav class="navbar navbar-expand-sm bg-dark">
+		<ul class="navbar-nav">
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">Laptop</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">PC</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">Phụ kiện</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="" style="text-align: center;color: white;padding:9px">Linh kiện</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">MACBOOK</a>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">ASUS</a>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">HP</a>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">LENOVO</a>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">ACER</a>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">DELL</a>
+		<a href="" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">LG</a>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col" style="text-align: center">Chọn mức giá</div>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">Dưới 10 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">10-15 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">15-20 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">20-25 triệu </a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">Trên 25 triệu</a>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2" style="background-color: #fa64a5; color: white;font-size: 20px;font-style: italic; font-weight: 700;padding: 10px;">Top Laptop đáng mua</div>
+		<div class="col-sm-8"></div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Lenovo IdeaPad Slim 3.PNG"></a>
+			<p>Lenovo IdeaPad Slim 3 15IIL05 i3<br>1005G1 (81WE003RVN)<br><i style="color: red">11.990.000đ</i> <strike style="float: right; margin-right: 50px">12.990.000đ</strike><br>
+				<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="far fa-star"></i><i class="far fa-star"></i> 10 đánh giá</p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Lenovo IdeaPad 3.PNG"></a>
+			<p>Lenovo IdeaPad 3 15IIL05 i3 1005<br>G1 (81WE0132VN)<br><i style="color: red">11.990.000đ</i> <strike style="float: right; margin-right: 50px">12.990.000đ</strike></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Acer Aspire 5.PNG"></a>
+			<p>Acer Aspire 5 A514 54 3204 i3 111<br>5G4 (NX.A23SV.009)<br><i style="color: red">14.290.000đ</i></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="HP 15S.PNG"></a>
+			<p>HP 15S fq2045TU i7 1165G7 (31D<br>93PA)<br><i style="color: red">18.590.000đ</i><br>
+				<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> 18 đánh giá</p></p>
+		</section>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2" style="color: black;font-size: 20px;text-transform: bold;font-weight: 500">Laptop bán chạy</div>
+		<div class="col-sm-8"></div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="HP340S.PNG"></a>
+			<p>HP 340s G7 i3 1005G1 (224L1PA)<br><br><i style="color: red">12.690.000đ</i><br>
+			<i class="fas fa-star text-warning"></i></i><i class="far fa-star"></i><i class="far fa-star"></i></i><i class="far fa-star"></i><i class="far fa-star"></i> 2 đánh giá</p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src=" hp 15s fq.png"></a>
+			<p>HP 15s fq2045TU i7 1165G7 (31D<br>93PA)<br><i style="color: red">18.590.000đ</i> <strike style="float: right; margin-right: 50px">12.990.000đ</strike><br>
+			<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> 8 đánh giá</p></p></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="HP Pavilion 15.PNG"></a>
+			<p>HP Pavilion 15 eg0073TU i3 1115<br>G4 (2P1N4PA)<br><i style="color: red">14.990.000đ</i></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="HP pavilion x360.PNG"></a>
+			<p>HP Pavilion x360 dw1016TU i3 111<br>5G4 (2H3Q0PA)<br><i style="color: red">14.490.000đ</i><br></p>
+		</section>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="hp 245.PNG"></a>
+			<p>HP 245 G8 R5 3500U (345R8PA)<br><br><i style="color: red">13.590.000đ</i><br>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="acer aspire 3.PNG"></a>
+			<p>Acer Aspire 3 A315 54K 37B0 i3 8<br>130U (NX.HEESV.00D)<br><i style="color: red">10.690.000đ</i> <strike style="float: right; margin-right: 50px">10.690.000đ</strike><br>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="MSI GL65.png"></a>
+			<p>MIS GL65 Leopard 10SCXK i7 107<br>50H (093VN)<br><i style="color: red">23.640.000đ</i> <strike style="float: right; margin-right: 50px">24.690.000đ</strike></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Acer aspire a315.PNG"></a>
+			<p>Acer Aspire A315 56 34AY i3 1005<br>G1 (NX.HS5SV.007)<br><i style="color: red">14.490.000đ</i><br></p>
+		</section>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row" style="background: #ddd">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-truck fa-3x"></i> Giao hàng nhanh<br> chóng</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-piggy-bank fa-3x"></i>Thanh toán: Tiền mặt, visa/master, trả góp</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-mobile-alt fa-3x"></i>Trải nghiệm sản phẩm<br>tại nhà</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-medal fa-3x"></i>Lỗi đổi tại nhà nhanh<br>chóng</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="far fa-comments fa-3x"></i>Hỗ trợ mọi lúc<br>Hotline:18001763</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4"><a href="">Lịch sử mua hàng</a><br><a href="">Đăng ký làm đại lý cho TGDĐ</a><br><a href="">Tìm hiểu thêm về mua trả góp</a><br><a href="">Chính sách bảo hành</a><br><a href="">Chính sách đổi trả</a><br>
+			<div class="dropdown">
+					<button class="dropbtn"><b>Xem thêm</b><i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<a href="">Giao hàng & Thanh toán</a>
+					<a href="">Hướng dẫn mua online</a>
+					<a href="">Bán hàng doanh nghiệp</a>
+					<a href="">Phiếu mua hàng</a>
+					<a href="">Quy chế hoạt động</a>
+					<a href="">Nội quy cửa hàng</a>
+					<a href="">Chất lượng phục vụ</a>
+					<a href="">Cảnh báo giả mạo</a>
+					<a href="">Thông tin sản phẩm</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<a href="">Giới thiệu công ty (mwg.vn)</a><br>
+			<a href="">Tuyển dụng</a><br>
+			<a href="">Gửi góp ý, khiếu nại</a><br>
+			<a href="">Tìm siêu thị (2.559 shop)</a><br>
+			<a href="">Xem bản mobile</a>
+		</div>
+		<div class="col-sm-3">
+			<table>
+				<tr>
+					<td><small>Gọi mua hàng </small></td>
+					<td><a href="">1800.1060 </a></td>
+					<td><small>(7:30 - 22:00)</small></td>
+				</tr>
+				<tr>
+					<td><small>Gọi khiếu nại </small></td>
+					<td><a href="">1800.1062 </a></td>
+					<td><small>(8:00 - 21:30)</small></td>
+				</tr>
+				<tr>
+					<td><small>Gọi bảo hành </small></td>
+					<td><a href="">1800.1064 </a></td>
+					<td><small>(8:00 - 21:00)</small></td>
+				</tr>
+				<tr>
+					<td><small>Kỹ thuật </small></td>
+					<td><a href="">1800.1063 </a></td>
+					<td><small>(7:30 - 22:00)</small></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-sm-1"></div>
 </body>
 </html>
