@@ -1,0 +1,18 @@
+.email{
+    border: solid 1px;
+    margin-left: 500px;
+    height: 150px;
+    background: pink;
+}
+.email .td input{
+    width: 400px;
+}
+.email .td textarea{
+    width: 403px;
+}
+form{
+    margin-top: 30px;
+}
+td{
+    padding: 5px;
+}
