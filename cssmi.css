@@ -3,11 +3,15 @@ body{
  
   border:  green solid ;
   width: 500px;
-
+  margin-left: 350px;
+  background: white;
 } 
 .hovaten{
   right: 100px;
 }
 label{
   float: right;
+}
+section{
+  margin-left: 50px;
 }
