@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<style type="text/css">
+		li{
+			margin-left: 30px;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+		}
+		ul li a:hover{
+			background-color: red;
+		}
+		.dropdown{
+		  float: left;
+		  overflow: hidden;
+		}
+
+		.dropdown .dropbtn{
+		  font-size: 16px;  
+		  border: none;
+		  outline: none;
+		  color: blue;
+		  background-color: inherit;
+		  font-family: inherit;
+		  margin: 0;
+		}
+
+		.col a:hover, .dropdown:hover .dropbtn{
+		  background-color: #ff9900;
+		}
+
+		.dropdown-content{
+		  display: none;
+		  position: absolute;
+		  background-color: white;
+		  min-width: 160px;
+		  z-index: 1;
+		}
+
+		.dropdown-content a{
+		  float: none;
+		  color: black;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		.dropdown-content a:hover{
+		  background-color: white;
+		}
+
+		.dropdown:hover .dropdown-content{
+		  display: block;
+		}
+		.col-sm-3 a{
+			color:blue;
+		}
+		.col-sm-4 a{
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+	<section style="margin-left: 100px; background-color: black"></section>
+  <a class="navbar-brand" href="../index.html">
+    <img src="../logo.png" style="width:100px;">
+  </a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <input type="text" placeholder="Tìm kiếm sản phẩm..." style="width: 400px">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </li>
+    <li class="nav-item">
+		<a class="nav-link" href="#">
+			<select>
+				<option>Chọn khu vực</option>
+				<option>Hà Nội</option>
+				<option>Thành phố Hồ Chí Minh</option>
+			</select>
+		</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Giỏ hàng</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="dangnhapdangki.html">Đăng kí/Đăng nhập</a>
+    </li>
+  </ul>	
+</nav>
+	<nav class="navbar navbar-expand-sm bg-dark">
+		<ul class="navbar-nav">
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="../Laptop/laptop.html" style="text-align: center;color: white;padding:9px">Laptop</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="pc.html" style="text-align: center;color: white;padding:9px">PC</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="../Phukien/phukien.html" style="text-align: center;color: white;padding:9px">Phụ kiện</a></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"></li>
+			<li class="nav-item"><a href="../Linhkien/linhkien.html" style="text-align: center;color: white;padding:9px">Linh kiện</a></li>
+		</ul>
+	</nav>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<a href="../Hang/macbook.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">MACBOOK</a>
+		<a href="../Hang/asus.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">ASUS</a>
+		<a href="../Hang/hp.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">HP</a>
+		<a href="../Hang/lenovo.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">LENOVO</a>
+		<a href="../Hang/acer.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">ACER</a>
+		<a href="../Hang/dell.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">DELL</a>
+		<a href="../Hang/MSI.html" class="col" style="background-color: #16a844; text-align: center; padding: 15px; border:white thin solid;border-radius: 5px">MSI</a>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col" style="text-align: center">Chọn mức giá</div>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">Dưới 10 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">10-15 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">15-20 triệu</a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">20-25 triệu </a>
+		<a href="" class="col" style="text-align: center; border:white thin solid; color: blue">Trên 25 triệu</a>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-1" style="background-color: #fa64a5; color: white;font-size: 20px;font-style: italic; font-weight: 700;padding: 10px;">PC</div>
+		<div class="col-sm-8"></div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Máy tính để bàn HP 205 Pro.jpg" width="270px"></a>
+			<p>Máy tính để bàn HP 205 Pro G4 <br>
+			AIO R3 4300U/4GB/256GB/21.5 inch<br><i style="color: red">12.690.000₫</i> <strike style="float: right; margin-right: 50px">12.990.000₫</strike><br>
+				<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="far fa-star"></i><i class="far fa-star"></i> 22 đánh giá</p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Máy tính để bàn HP 205 Pro G4 AIO R3.jpg" width="270px"></a>
+			<p>Máy tính để bàn HP 205 Pro G4<br>
+			 AIO R3 4300U/4GB/256GB/23.8 inch<br><i style="color: red">11.990.000đ</i> <strike style="float: right; margin-right: 50px">12.990.000đ</strike></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Máy tính để bàn HP 205 Pro G4.jpg" width="270px"></a>
+			<p>Máy tính để bàn HP 205 Pro <br>
+			 G4 AIO R5 4500U/8GB/256GB/21.5 inch<br><i style="color: red">15.690.000₫</i></p>
+		</section>
+		<section>
+			<a href="" class="col" style="margin-right: 30px"><img src="Máy tính để bàn Apple iMac.jpg" width="270px"></a>
+			<p>HP 15S fq2045TU i7 1165G7 (31D<br>93PA)<br><i style="color: red">18.590.000đ</i><br>
+				<i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i> 100 đánh giá</p></p>
+		</section>
+		<div class="col-sm-1"></div>
+	</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row" style="background: #ddd">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-truck fa-3x"></i> Giao hàng nhanh<br> chóng</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-piggy-bank fa-3x"></i>Thanh toán: Tiền mặt, visa/master, trả góp</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-mobile-alt fa-3x"></i>Trải nghiệm sản phẩm<br>tại nhà</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="fas fa-medal fa-3x"></i>Lỗi đổi tại nhà nhanh<br>chóng</div>
+		<div class="col-sm-2" style="margin: 0px;padding: 10px;display: inline-flex;"><i class="far fa-comments fa-3x"></i>Hỗ trợ mọi lúc<br>Hotline:18001763</div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-4"><a href="">Lịch sử mua hàng</a><br><a href="">Đăng ký làm đại lý cho TGDĐ</a><br><a href="">Tìm hiểu thêm về mua trả góp</a><br><a href="">Chính sách bảo hành</a><br><a href="">Chính sách đổi trả</a><br>
+			<div class="dropdown">
+					<button class="dropbtn"><b>Xem thêm</b><i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<a href="">Giao hàng & Thanh toán</a>
+					<a href="">Hướng dẫn mua online</a>
+					<a href="">Bán hàng doanh nghiệp</a>
+					<a href="">Phiếu mua hàng</a>
+					<a href="">Quy chế hoạt động</a>
+					<a href="">Nội quy cửa hàng</a>
+					<a href="">Chất lượng phục vụ</a>
+					<a href="">Cảnh báo giả mạo</a>
+					<a href="">Thông tin sản phẩm</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<a href="">Giới thiệu công ty (mwg.vn)</a><br>
+			<a href="">Tuyển dụng</a><br>
+			<a href="contact.html">Gửi góp ý, khiếu nại</a><br>
+			<a href="">Tìm siêu thị (2.559 shop)</a><br>
+			<a href="">Xem bản mobile</a>
+		</div>
+		<div class="col-sm-3">
+			<table>
+				<tr>
+					<td><small>Gọi mua hàng </small></td>
+					<td><a href="">1800.1060 </a></td>
+					<td><small>(7:30 - 22:00)</small></td>
+				</tr>
+				<tr>
+					<td><small>Gọi khiếu nại </small></td>
+					<td><a href="">1800.1062 </a></td>
+					<td><small>(8:00 - 21:30)</small></td>
+				</tr>
+				<tr>
+					<td><small>Gọi bảo hành </small></td>
+					<td><a href="">1800.1064 </a></td>
+					<td><small>(8:00 - 21:00)</small></td>
+				</tr>
+				<tr>
+					<td><small>Kỹ thuật </small></td>
+					<td><a href="">1800.1063 </a></td>
+					<td><small>(7:30 - 22:00)</small></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-sm-1"></div>
+				<footer>
+			<section class="mb-4" style=" background: #0ecfc2;">
+    <h2 class="h1-responsive font-weight-bold text-center my-4" style="color: #0e9bcf;">Contact Us</h2>
+    <p class="text-center w-responsive mx-auto mb-5" style="color: #e4ed93;">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+    <div style="margin-left: 160px;">
+    	<div class="row" style="margin-left: 130px;">
+	        <div class="col-md-9 mb-md-0 mb-5">
+	            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+	                <div class="row">
+	                    <div class="col-md-6">
+	                        <div class="md-form mb-0">
+	                            <input type="text" id="name" name="name" class="form-control" style="border: none; border-bottom: 2px solid #333; outline: none;">
+	                            <label for="name" class="">Your name</label>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-6">
+	                        <div class="md-form mb-0">
+	                            <input type="text" id="email" name="email" class="form-control" style="border: none; border-bottom: 2px solid #333; outline: none;">
+	                            <label for="email" class="">Your email</label>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col-md-12">
+	                        <div class="md-form mb-0">
+	                            <input type="text" id="subject" name="subject" class="form-control" style="border: none; border-bottom: 2px solid #333; outline: none;">
+	                            <label for="subject" class="">Subject</label>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col-md-12">
+	                        <div class="md-form">
+	                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+	                            <label for="message">Your message</label>
+	                        </div>
+	                    </div>
+	                </div>
+	            </form>
+	            <div class="text-center text-md-left">
+	                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+	            </div>
+	            <div class="status"></div>
+	        </div>
+	    </div>
+	    <div class="col-md-3 text-center" style="display: flex; margin-top: 40px; margin-left: 30px;">
+	        <ul class="list-unstyled mb-0">
+	            <a href="../googlemap.html"><li  style="width: 400px; list-style-type: none; margin-top: 15px;"><i class="fas fa-map-marker-alt fa-2x"></i>
+	                <p>54 Le Thanh Nghi, Hai Ba Trung, Ha Noi</p></a>
+	            </li>
+	        </ul>
+	        <ul>
+	            <a href="tel:+84-36-658-855"><li  style="width: 400px; list-style-type: none;"><i class="fas fa-phone mt-4 fa-2x"></i>
+	            	<p>+84 36 658 855</p>
+	            </li></a>
+	        </ul>
+	        <ul>
+	            <a href="email.html"><li  style="width: 400px; list-style-type: none;"><i class="fas fa-envelope mt-4 fa-2x"></i>
+	                <p>aptechvietnam.com.vn</p>
+	            </li></a>
+	        </ul>
+	    </div>
+    </div>
+</section>
+		</footer>
+</body>
+</html>
